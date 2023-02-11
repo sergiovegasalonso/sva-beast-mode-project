@@ -13,5 +13,6 @@ Cross-platform application with good software engineering practices.
 5. Page(section) with real-time functionalities.
 6. Adapter for gRPC comunication.
 7. Playwright and Vitest for testing.
+8. Good code versioning with trunk-based development.
 
 Etc.
