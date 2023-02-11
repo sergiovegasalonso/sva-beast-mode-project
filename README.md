@@ -4,7 +4,7 @@
 
 Cross-platform application with good software engineering practices.
 
-## Tecnologies, tools and practices.
+## Tecnologies, tools and practices
 
 1. ElectronJS (yes, Electron, not Tauri).
 2. SvelteKit with Typescript.
