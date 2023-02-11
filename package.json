@@ -1,0 +1,17 @@
+{
+  "name": "sva-beast-mode-project",
+  "version": "1.0.0",
+  "description": "Cross-platform application with good software engineering practices.",
+  "main": "main.js",
+  "repository": "git@github.com:sergiovegasalonso/sva-beast-mode-project.git",
+  "author": "<sergio.vegas.alonso@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.5",
+    "electron": "^23.0.0"
+  }
+}
