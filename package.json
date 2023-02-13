@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "electron-forge start",
-    "package": "electron-forge package",
-    "make": "electron-forge make"
+    "preview": "yarn --cwd src build && NODE_ENV=production electron-forge start",
+    "package": "yarn --cwd src build && electron-forge package",
+    "make": "yarn --cwd src build && electron-forge make"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.5",
