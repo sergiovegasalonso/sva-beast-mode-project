@@ -10,7 +10,9 @@
   "scripts": {
     "preview": "yarn --cwd src build && NODE_ENV=development electron-forge start",
     "package": "yarn --cwd src build && electron-forge package",
-    "make": "yarn --cwd src build && electron-forge make"
+    "make": "yarn --cwd src build && electron-forge make",
+    "lint": "yarn --cwd src lint",
+    "format": "yarn --cwd src format"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.5",
