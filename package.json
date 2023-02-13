@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "preview": "yarn --cwd src build && NODE_ENV=production electron-forge start",
+    "preview": "yarn --cwd src build && NODE_ENV=development electron-forge start",
     "package": "yarn --cwd src build && electron-forge package",
     "make": "yarn --cwd src build && electron-forge make"
   },
