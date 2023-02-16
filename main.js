@@ -37,7 +37,7 @@ app.whenReady().then(() => {
     callback({
       responseHeaders: {
         ...details.responseHeaders,
-        "Content-Security-Policy": ["default-src 'self'"],
+        "Content-Security-Policy": ["img-src 'self' data:; default-src 'self'"],
       },
     });
   });
