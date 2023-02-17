@@ -1,48 +1,25 @@
-<main>
-	<a
-		class="btn btn-primary"
-		data-bs-toggle="offcanvas"
-		href="#offcanvasExample"
-		role="button"
-		aria-controls="offcanvasExample"
-	>
-		Link with href
-	</a>
+<main data-bs-theme="dark">
 	<button
 		class="btn btn-primary"
 		type="button"
 		data-bs-toggle="offcanvas"
-		data-bs-target="#offcanvasExample"
-		aria-controls="offcanvasExample"
+		data-bs-target="#offcanvasWithBothOptions"
+		aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button
 	>
-		Button with data-bs-target
-	</button>
 
 	<div
 		class="offcanvas offcanvas-start"
+		data-bs-scroll="true"
 		tabindex="-1"
-		id="offcanvasExample"
-		aria-labelledby="offcanvasExampleLabel"
+		id="offcanvasWithBothOptions"
+		aria-labelledby="offcanvasWithBothOptionsLabel"
 	>
 		<div class="offcanvas-header">
-			<h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+			<h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
 			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" />
 		</div>
 		<div class="offcanvas-body">
-			<div>
-				Some text as placeholder. In real life you can have the elements you have chosen. Like,
-				text, images, lists, etc.
-			</div>
-			<div class="dropdown mt-3">
-				<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-					Dropdown button
-				</button>
-				<ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="#">Action</a></li>
-					<li><a class="dropdown-item" href="#">Another action</a></li>
-					<li><a class="dropdown-item" href="#">Something else here</a></li>
-				</ul>
-			</div>
+			<p>Try scrolling the rest of the page to see this option in action.</p>
 		</div>
 	</div>
 </main>
